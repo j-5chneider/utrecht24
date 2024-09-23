@@ -20,7 +20,27 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
@@ -559,8 +579,8 @@ Whom and how do we ask?
 <div id="callout-6" class="callout-6-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
 <ul>
-<li>Some studies suggest that participants <strong>rarely read</strong> the information or consent form carefully</li>
-<li>Some studies suggest that <em>very</em> <strong>easy language</strong> may be better for understanding (and thus being informed) than “standard” language (Geiger, …)</li>
+<li>Some studies suggest that participants <strong>rarely read</strong> the information or consent form carefully <span class="citation" data-cites="Parfenova.etal.2024 Pedersen.etal.2011">(<a href="references.html#ref-Parfenova.etal.2024" role="doc-biblioref">Parfenova et al., 2024</a>; <a href="references.html#ref-Pedersen.etal.2011" role="doc-biblioref">Pedersen et al., 2011</a>)</span></li>
+<li>Some studies suggest that <em>very</em> <strong>easy language</strong> may be better for understanding (and thus being informed) than “standard” language <span class="citation" data-cites="Geier.etal.2021">(<a href="references.html#ref-Geier.etal.2021" role="doc-biblioref">Geier et al., 2021</a>)</span></li>
 <li>The <strong>minimum age</strong> differs between EU countries, can go down to 13 years (Germany: 16, Austria: 15)</li>
 <li>With studies involving <strong>pupils in schools</strong>, additional regulations may come into effect that require parental consent.</li>
 </ul>
@@ -762,6 +782,17 @@ Task
 </div>
 
 
+<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" data-line-spacing="2" role="list" style="display: none">
+<div id="ref-Geier.etal.2021" class="csl-entry" role="listitem">
+Geier, C., Adams, R. B., Mitchell, K. M., &amp; Holtz, B. E. (2021). Informed <span>Consent</span> for <span>Online Research</span>—<span>Is Anybody Reading</span>?: <span>Assessing Comprehension</span> and <span>Individual Differences</span> in <span>Readings</span> of <span>Digital Consent Forms</span>. <em>Journal of Empirical Research on Human Research Ethics</em>, <em>16</em>(3), 154–164. <a href="https://doi.org/10.1177/15562646211020160">https://doi.org/10.1177/15562646211020160</a>
+</div>
+<div id="ref-Parfenova.etal.2024" class="csl-entry" role="listitem">
+Parfenova, D., Niftulaeva, A., &amp; Carr, C. T. (2024). Words, words, words: Participants do not read consent forms in communication research. <em>Communication Research Reports</em>, 1–11. <a href="https://doi.org/10.1080/08824096.2024.2379832">https://doi.org/10.1080/08824096.2024.2379832</a>
+</div>
+<div id="ref-Pedersen.etal.2011" class="csl-entry" role="listitem">
+Pedersen, E. R., Neighbors, C., Tidwell, J., &amp; Lostutter, T. W. (2011). Do <span>Undergraduate Student Research Participants Read Psychological Research Consent Forms</span>? <span>Examining Memory Effects</span>, <span>Condition Effects</span>, and <span>Individual Differences</span>. <em>Ethics &amp; Behavior</em>, <em>21</em>(4), 332–350. <a href="https://doi.org/10.1080/10508422.2011.585601">https://doi.org/10.1080/10508422.2011.585601</a>
+</div>
+</div>
 </section>
 
 </main> <!-- /main -->
