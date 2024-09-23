@@ -1,0 +1,112 @@
+```{r}
+#| echo: false
+library(fontawesome)
+```
+
+
+# Focus: Tools and Resources
+
+\
+\
+
+:::: {.columns}
+::: {.column width="48%" .color-box1}
+![](www/holepunch.png)  
+
+### Holepunch {.unnumbered}
+
+* **Share a copy of your R Studio project** via button click
+* Accessible over **all platforms**: Project opens in browser
+* **No installation** needed, only internet access and a browser
+* *Best used in combination with [renv](https://rstudio.github.io/renv/articles/renv.html) or [groundhog](https://groundhogr.com/) to secure package version stability*
+
+
+
+
+::: {.callout-note collapse="true" icon=false}
+#### Example
+
+Go to [this github repo](https://github.com/j-5chneider/subcommunitiesOS) and click on "launch binder".
+
+:::
+:::
+
+::: {.column width="1%"}
+:::
+
+::: {.column width="48%" .color-box2}
+![](www/input-output.jpg)  
+
+\
+
+### Enriched input-output-documents {.unnumbered}  
+
+* Enables data analysis and results to be reviewed **side-by-side**
+* Possible to **add** formatted text, pictures, videos, ...
+* Several **layout options** (e.g. using tabs, table of content)
+* with package [xfun::embed_file()](https://bookdown.org/yihui/rmarkdown-cookbook/embed-file.html) we can embed data *into* the HTML
+
+::: {.callout-note collapse="true" icon=false}
+#### Example
+
+See [this validation study](https://raw.githack.com/j-5chneider/uzvvtp-las/refs/heads/master/5_validation/validation.html) of an instrument.
+
+:::
+
+
+:::
+::::
+
+\
+
+
+:::: {.columns}
+::: {.column width="48%" .color-box3}
+![](www/codebook_web.jpg)  
+
+### R codebook-package{.unnumbered}  
+
+* **semi-automatic** option to create a codebook
+* labelled data `r fa("long-arrow-right")` codebook with **minimal effort**
+* See [paper and introduction](https://doi.org/10.1177/2515245919838783)
+* Not keen on using R? Use [this web app](https://opencpu.psych.bio.uni-goettingen.de/ocpu/library/codebook/www/)
+
+::: {.callout-note collapse="true" icon=false}
+#### Examples
+
+See 
+
+* the codebook of [this small scale study](https://raw.githack.com/j-5chneider/subcommunitiesOS/refs/heads/main/documentation/codebook.html) or 
+* the codebook of the [first sample from this larger study](https://raw.githack.com/j-5chneider/re-building-trust-pub/main/3_data%2Bcodebooks/codebook_study1_undergrad.html).
+
+:::
+
+
+
+
+
+:::
+
+::: {.column width="1%"}
+:::
+
+::: {.column width="48%" .color-box4}
+![](www/rix_logo.png)  
+
+### rix package  {.unnumbered}  
+
+* The future of reproducibility?
+* Creates a **self-contained** time-stamped capsule in which everything necessary is provided (like docker + renv at the same time)
+* Uses the package manager **Nix**
+
+
+::: {.callout-note collapse="true" icon=false}
+#### Introduction
+
+See [this video of a workshop](https://zpid.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=864361e7-d573-457b-95fc-b1a30073651e)
+
+:::
+
+
+:::
+::::

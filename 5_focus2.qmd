@@ -1,0 +1,202 @@
+```{r}
+#| echo: false
+library(fontawesome)
+```
+
+
+# Focus: How to share?
+
+\
+\
+
+
+## Describe
+
+**Create a codebook!**
+
+::: {.panel-tabset}
+
+### Why?
+
+When others, or your future self, engage with the dataset, they need to clearly comprehend the contents and structure of the data. This relates to the **reuse** part of FAIR data.
+
+
+
+::: {.blockquote}
+**"Vagueness Makes Assessing Reproducibility a Nightmare**  
+*most successful reproductions are predominantly the result of tedious and time-consuming work information about the provided raw data was often difficult to understand, and information about the relevant variables, data manipulations, and the used statistical model was often vague or inaccurate"*
+[@Artner.etal.2021, p. 12]
+:::
+
+**Questions that might arise are:**
+
+* Which item label relates to which variable in the data set? 
+* What are the answer options (value labels) for this variable in the data set?
+* Which items make a scale? 
+* Which items are reversed? 
+* ...
+
+### Resources
+
+![](www/codebook_table.png){width=100%}  
+*Example from [@Horstmann.etal.2020]*
+
+::: {.callout-note appearance="simple"  collapse="true"}
+#### Resources quantitative data
+
+* How and why to write a codebook: [Link to paper](https://doi.org/10.1027/1015-5759/a000620) which [includes an example](https://doi.org/10.17605/OSF.IO/NERPA)
+* From a research data center: [Straight to the point answer on FAQ](https://rdc-psychology.org/how-to-write-a-codebook)
+* Institute of Education Science's ["Guidelines for a Codebook"](https://ies.ed.gov/ncee/rel/regions/central/pdf/CE5.3.2-Guidelines-for-a-Codebook.pdf)
+* Information and overview by ICPSR on ["What is a Codebook?"](https://www.icpsr.umich.edu/web/ICPSR/cms/1983)
+* Option to semi-automatically create a codebook, particularly useful if you have labelled data: [R codebook package](https://doi.org/10.1177/2515245919838783)
+   - Here is [my introduction to the package](https://raw.githack.com/j-5chneider/howR/main/09_codebook_package/codebook_exercises.html) including troubleshoot tips (use your browser to automatically translate it)
+   - There is also a [codebook web app](https://opencpu.psych.bio.uni-goettingen.de/ocpu/library/codebook/www/), in case you don't want to use R
+
+:::
+  
+  
+::: {.callout-note appearance="simple"  collapse="true"}
+#### Resources qualitative data
+
+* Comprehensive guide on ["Opening up and Sharing Data from Qualitative Research"](https://doi.org/10.34669/WI.WS/17), see p. 13 on contextualization
+* ["A guide to field notes"](https://doi.org/10.1177/1049732317697102)
+* Further reading: ["Engaging the challenges of sharing qualitative research data"](https://doi.org/10.1073/pnas.2206981120)
+
+:::
+
+
+### Task 
+
+::: {.callout-tip}
+#### Task
+
+1. Check out [this codebook example](https://raw.githack.com/j-5chneider/re-building-trust-pub/main/3_data%2Bcodebooks/codebook_study1_undergrad.html) created by the codebook R package
+2. What do you like about the codebook? What do you think could be improved to meet the goal of understanding the data set?
+
+:::
+:::
+
+\
+\
+
+
+
+## Share
+
+**Transfer your data to a repository or research data center!**
+
+::: {.panel-tabset}
+
+### Where?
+
+:::: columns
+::: {.column width="48%" .bg-orange-light}
+**Search for research data centers:**  
+  
+[re3data.org](https://www.re3data.org/search?query=)   
+*(Use filters to narrow down the search results)*
+:::
+
+::: {.column width="48%" .bg-orange-light}
+**Repositories:**  
+  
+[zenodo.org](https://zenodo.org/)  
+[osf.io](https://osf.io/)
+:::
+::::
+
+
+::: {.blockquote}
+
+:::
+
+
+### Task 
+
+::: {.callout-tip}
+## Task
+
+Either:
+
+1. Search [re3data.org](https://www.re3data.org/search?query=): 
+    - Is there a research data center that **fits your needs**?
+    - E.g. What sharing levels does it offer?
+    - E.g. Will they process requests for data access or do you have to approve each time?
+2. To **explore the repositories**, upload an empty Excel-File to [zenodo.org](https://zenodo.org/) as well as [osf.io](https://osf.io/).
+    - How easy is the process of filling out metadata?
+    - Which repository gives the option for more detailed metadata?
+
+:::
+:::
+
+\
+\
+
+## Connect
+
+::: {.panel-tabset}
+
+### Why?
+
+<p class="text-center">`r fa("file-lines", height="35px")`&emsp;`r fa("arrow-right-arrow-left", height="35px")`&emsp;`r fa("database", height="35px")`</p>
+  
+Enable researchers to **find** the data from the paper and the paper from the data, regardless of **entry point**.  
+  
+
+::: {.blockquote}
+**For example:**  
+
+* Researchers trying to **replicate** your study will easily find the data
+* Researchers trying to use your study in a **meta-analysis** will easily find the data
+* Researchers who know about your data will always be able to establish a **clear link**.
+* Researchers stumbling over your data (e.g. on OSF) will easily be able to **understand the context** by accessing the paper
+* ...
+
+:::
+
+
+### How to connect?
+
+
+Ideally, we use **persistent identifiers**. In our field, this usually means using a **DOI**.
+
+
+::: {.callout-note appearance="simple"  collapse="true"}
+
+## Advantages of DOIs
+
+**Permanence**: URLs can change or become broken over time if a webpage is moved or deleted. A DOI is designed to stay the same forever, even if the content is moved to a different location.  
+  
+**Reliability**: Since DOIs are managed by official organizations (like Crossref, DataCite), they guarantee that the content will be accessible for a long time.  
+  
+**Easy Tracking**: DOIs make it easy for others to track, cite, and reference your work consistently.
+:::
+
+
+* [osf.io](https://osf.io/) offers one DOI per "component", but only if you switched it to "public"<br /> (`r fa("long-arrow-right")` click ["Create DOI" under the title](https://help.osf.io/article/220-create-dois) of your component)<br /><br />
+* [zenodo.org](https://zenodo.org/) offers one DOI per repository. You can also get a DOI for repositories that are restricted in their visibility.<br /> (`r fa("long-arrow-right")` Switch "Do you already have a DOI for this upload?" to "No")
+
+\
+
+::: {.blockquote}
+**Ideally**  
+
+* You'll put the DOI in a **section** of your paper that is **not paywalled** (that can be "data availability", "open practices" or "supplemental material")
+* You'll use **standard fields** in the repository to put the DOI that links to your paper
+
+:::
+
+
+### Task 
+
+::: {.callout-tip}
+## Task
+
+Imagine you'll need to upload a new version of your data set. E.g. after expanding your sample to include data on other populations.<br />`r fa("long-arrow-right")` Simulate this by replacing your Excel file from the last task with a new excel file.
+
+* Does the DOI change from before to after the upload?
+* Is there an option to reference a specific version of your data set?
+* Is there an option to automatically reference the latest version of your data set?
+
+:::
+:::

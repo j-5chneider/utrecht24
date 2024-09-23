@@ -1,0 +1,282 @@
+```{r}
+#| echo: false
+library(fontawesome)
+```
+
+
+# Focus: Can I share?
+
+\
+
+When we ask ourselves the question 'Can I share the research data from my project?', we find ourselves navigating a tension between
+
+* reproducible, efficient and verifiable results, which represent a public good, and
+* the protection of participants' privacy.
+
+**Both are legitimate concerns.**   
+  
+\
+\
+
+
+## Does my data count as personal data?
+
+::: {.panel-tabset}
+
+#### Personal data is...
+
+Your data set counts as personal data, if individuals can be identified from someone else looking at the data [(see EU data protection rules)](https://commission.europa.eu/law/law-topic/data-protection/reform/what-personal-data_en).   
+\
+
+::: {.blockquote}
+
+This is the case, if
+
+* it includes at least **one direct** identifier, like the name, email-address, postal address, ip-address, social security number, ...
+* it includes a **combination of indirect** identifiers from which the identity of an individual can be reconstructed. Such as simultaneous measures on gender, age, the combination of subjects studied, study location, and the place of birth.
+  
+:::
+\
+
+::: {.callout-note appearance="simple"  collapse="true"}
+
+## Indirect identifier
+
+In general, the existence of **one** indirect identifier in the data set does not constitute personal data. You have to judge for yourself at what point information/variables can be combined to identify a person. But in the end it comes down to: Better be save than sorry.
+
+:::
+
+
+#### Data anonymization
+If you collected personal data, the [GDPR](https://gdpr.eu/) applies, and you'll need the **consent** of the subjects to share the data (see next section). However, the GDPR does not apply to **anonymous data** and it can generally be shared without the need to obtain explicit consent for this purpose.  
+\
+
+:::: columns
+::: {.column width="48%" .bg-orange-light}
+**Absolute anonymity:**  
+
+Data are modified by coarsening or removing variables (direct or indirect identifiers) to such an extent that identifying individual participants becomes impossible.
+:::
+
+::: {.column width="48%" .bg-orange-light}
+**Factual anonymity:**
+
+Deanonymisation cannot be ruled out completely but the allocation of data to the respective statistical unit is only possible with an unreasonable effort in terms of time, cost and human resources.
+:::
+::::
+\
+
+::: {.callout-note appearance="simple"  collapse="true"}
+
+## An example
+
+Anonymizing interview transcripts is feasible. However, it may be possible to identify individuals based on their conversational tone and style using advanced text mining techniques and highly trained algorithms.
+
+:::
+
+
+#### Task
+
+::: {.callout-tip}
+## Task
+
+1. Check your data: Are individuals directly or indirectly identifiable?
+2. Does it make sense for you to anonymize the data?
+   - Is absolute anonymity possible? 
+   - What specific steps would you have to take to achieve anonymisation? 
+
+:::
+:::
+
+\
+\
+
+## Does my informed consent allow data sharing?
+
+
+::: {.panel-tabset}
+
+#### Requirements
+
+[The GDPR](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32016R0679&from=EN#d1e1489-1-1), only applies to personal data. This might mean that only with personal data you are obliged to obtain consent from your participants to share the data.
+
+\
+
+::: {.blockquote}
+
+Besides the usual requirements (voluntary participation, possibility of revocation, ...), the informed consent **requires the following aspects** in order to be able to share data:
+
+* a statement that the data **is being shared**
+* a statement of **whom** the data will be shared with
+* a description of the **purposes** for which the data are used and reused
+  
+:::
+\
+
+::: {.callout-note appearance="simple"  collapse="true"}
+
+## Possibility of revocation
+
+The possibility of revocation is **only required as long as the data is not anonymous** (i.e. personal). After anonymization, it is no longer possible to trace which data belongs to a particular person and it can therefore not be deleted.
+
+
+:::
+
+
+#### Broad consent
+Unfortunately, we are not all-knowing. This includes the fact that we **don't know what others will do with the data** we share. So what should we write as descriptions for the purposes?  
+\
+
+:::: columns
+::: {.column width="48%" .bg-orange-light}
+**Example: Consent tailored for project**  
+  
+*"The data is processed and analysed for the purpose of investigating the correlations between learning strategies and learning success during studies. After completion of the project, the data will be made available to other researchers via an accredited research data center."*
+:::
+
+::: {.column width="48%" .bg-orange-light}
+**Examples: Broad consent**  
+  
+*"The data is processed and analysed for research purposes. After completion of the project, the data will be made available to other researchers via an accredited research data center."*  
+  
+*"I give permission for the data that I provide to be deposited in an accredited research data center, so it can be used for future research and learning."*
+:::
+::::
+\
+
+
+::: {.callout-note appearance="simple"  collapse="true"}
+
+## Good resources
+
+&#127482;&#127480; [Recommendations of ICPSR](https://www.icpsr.umich.edu/web/pages/datamanagement/confidentiality/conf-language.html)  
+&#127468;&#127463; [Information, samples and model forms of UK Data Service](https://ukdataservice.ac.uk/learning-hub/research-data-management/ethical-issues/consent-for-data-sharing/)  
+&#127465;&#127466; [Information, samples and model forms of VerbundFDB](https://www.forschungsdaten-bildung.de/handreichungen)  
+&#127475;&#127473; [Very good overview with Dos and Don'ts of the University of Utrecht](https://www.uu.nl/en/research/research-data-management/guides/legal-considerations/how-to-write-an-informed-consent-form)  
+&#127466;&#127482; [Maintaining privacy with open data](https://osf.io/j6fy8) (Video of presentation by Felix Schönbrodt)
+
+:::
+
+
+
+
+#### But wait...
+Important as an assessment criterion is the respondent's **capacity for understanding** what s/he is consenting to. If the participant doesn't know future uses of the data, can we really speak of an **informed** consent? Maybe the direction of future analyses go against the participant's will.
+
+
+::: {.callout-note appearance="simple"  collapse="true"}
+
+## Whom and how do we ask?
+
+- Some studies suggest that participants **rarely read** the information or consent form carefully
+- Some studies suggest that *very* **easy language** may be better for understanding (and thus being informed) than "standard" language  (Geiger, ...)
+- The **minimum age** differs between EU countries, can go down to 13 years (Germany: 16, Austria: 15)
+- With studies involving **pupils in schools**, additional regulations may come into effect that require parental consent.
+
+:::
+
+These are challenging questions that need to be **evaluated for every research project separately** and can lead to some researchers deciding **not** to share the data.
+
+
+#### Task
+
+::: {.callout-tip}
+## Task
+
+1. Check your informed consent: Did you mention that data is being shared? Does the purpose mentioned allow other researchers to reuse the data (e.g. for meta-analyses, reproducibility-checks)?
+2. Did you include any sentences similar to these, that hamper data sharing?
+   - "The data will only be used by *members of the project group*."
+   - "The data will be *deleted* after termination of the project / after 5 years."
+
+:::
+:::
+
+\
+\
+
+
+## Sharing (restriction) levels
+
+::: {.panel-tabset}
+
+### Features of data
+
+Clearly, there is **not only the dichotomy** of “ public access” vs. “ no access”. Even within a study, it may be necessary to restrict access to the data to varying degrees.  
+  
+E.g. if you are working with a (factually) anonymized quantitative data set and interview scripts that you have been asked to share only with researchers.  
+
+\
+
+::: {.blockquote}
+
+Restrictions (or selective sharing) may be relevant due to...
+
+* data type: **videos** of people always count as personal data and might be shared only for research purposes
+* data type: **interviews** are usually tough to anonymize and anonymization process might decrease analysis potential
+* **Sensitive** data or data of **vulnerable groups** should be particularly protected against unlawful dual use
+* **Student** data and data of **minors** is generally considered to be in need of protection
+
+:::
+\
+
+### Examples of sharing levels
+
+::: {.callout-note collapse="true" icon=false}
+### With repositories...
+sharing levels are usually limited to
+
+* public (everybody sees everything)
+* private (only you and your collaborators see everything)
+:::
+
+::: {.callout-note collapse="true" icon=false}
+### With research data centers... 
+there are different sharing levels possible for different files (*in the same project*). Sharing levels depend on what the research data center offers.   
+\
+  
+| Level              | Prerequesite                                                                                             | For what                                                         |   |
+|--------------------|----------------------------------------------------------------------------------------------------------|------------------------------------------------------------------|---|
+| Public Usefile     |                                                                                                          | anonymized data, codebooks, transcription rules                  |   |
+| Student Usefile    | Short application states use purpose                                                                     | non-anonymized data with right to use for teaching               |   |
+| Scientific Usefile | Longer application states use purpose, handling of data, and data analyses; identification via PostIdent | non-anonymized data with right to use for research               |   |
+| Remote Access      | ... + access only via virtual machine                                                                    | non-anonymized sensible data with right to use for research      |   |
+| Safe room          | ... + access only in person at research institute                                                        | non-anonymized very sensible data with right to use for research |   |
+  
+\
+
+An example: [Project DESI](http://dx.doi.org/10.7477/6:1:1), where 
+
+* codebooks are publicly accessible (files on the right side)
+* video data are restricted for scientific use (files on the bottom of page)
+
+:::
+
+
+### Alternatives to restricting
+
+* *Embargo period*
+   - Specify a time period, before data go public
+   - Possible with research data centers and some repositories
+* *Exclude certain research questions from reuse*
+   - Specify these research questions in the terms of use
+   - Usually only possible with research data centers, except you are writing a very good license yourself
+* *Create synthetic data (e.g., with R package synthpop)*
+   - Mimics the properties of your data
+   - Then possible to share this synthetic data set
+
+
+
+### Task
+
+::: {.callout-tip}
+#### Task
+
+
+1. Imagine a study results in anonymized quantitative data and an interview script. You have not received consent to share the interview data, but would like to store it securely.
+   - Check [osf.io](https://osf.io) to see if you can create a project where you can make your **quantitative data publicly available** and **restrict access to your interview transscript** so that only your research team can access it.
+   - Check [zenodo.org](https://zenodo.org/) if you can create a repository to share your **quantitative data publicly**, create another repository to **store your interview data with restricted access** and the **link the two repositories** defining their relationship.
+2. Is there a research data center, where you would share data that needs restriction? Such as when you obtained consent to share the data, but only for research purposes.
+   - Check the website of the research data center and try to find out **what their sharing/restriction levels are**
+
+:::
+:::

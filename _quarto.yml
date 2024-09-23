@@ -1,0 +1,63 @@
+project:
+  type: book
+
+book:
+  title: "Open Data - Utrecht"
+  author: "Jürgen Schneider"
+  date: 2024-09-24
+  date-format: "DD MMMM YYYY"
+  chapters:
+    - index.qmd
+    - 0_transparency.qmd
+    - part: "Reasons"
+      chapters:
+        - 1_reasons.qmd
+        - 1_reasons_external1.qmd
+        - 1_reasons_external2.qmd
+        - 1_reasons_research1.qmd
+        - 1_reasons_research2.qmd
+        - 1_reasons_researcher1.qmd
+    - part: "Open and FAIR Data"
+      chapters: 
+        - 2_definitions1.qmd
+        - 2_definitions2.qmd
+        - 2_definitions_exercise.qmd
+    - part: "Limits"
+      chapters: 
+        - 3_limits1.qmd
+    - part: "Workflow"
+      chapters: 
+        - 4_workflow1.qmd
+        - 4_workflow2.qmd
+        - 4_workflow3.qmd
+        - 4_workflow4.qmd
+        - 4_workflow5.qmd
+    - part: "Thematic focus"
+      chapters: 
+        - 5_focus1.qmd
+        - 5_focus2.qmd
+        - 5_focus3.qmd
+    - part: "Reflection"
+      chapters: 
+        - 6_barriers1.qmd
+  appendices: 
+    - references.qmd
+  page-navigation: true
+
+bibliography: references.bib
+csl: https://raw.githubusercontent.com/citation-style-language/styles/master/apa.csl
+css: www/style.css
+
+format:
+  html:
+    theme: cosmo
+  pdf:
+    documentclass: scrreprt
+
+execute:
+  freeze: auto
+  
+comments:
+  hypothesis: 
+    theme: clean
+
