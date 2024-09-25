@@ -20,7 +20,27 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
@@ -267,7 +287,7 @@ ul.task-list li input[type="checkbox"] {
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" aria-expanded="true">
- <span class="menu-text">Reflection</span></a>
+ <span class="menu-text">Thematic focus</span></a>
           <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
@@ -275,8 +295,20 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-5" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./5_barriers1.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">16</span>&nbsp; <span class="chapter-title">Exercise: Barriers</span></span></a>
+  <a href="./5_focus1.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">16</span>&nbsp; <span class="chapter-title">Focus: Can I share?</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./5_focus2.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">17</span>&nbsp; <span class="chapter-title">Focus: How to share?</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./5_focus3.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">18</span>&nbsp; <span class="chapter-title">Focus: Tools and Resources</span></span></a>
   </div>
 </li>
       </ul>
@@ -284,12 +316,29 @@ ul.task-list li input[type="checkbox"] {
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-6" aria-expanded="true">
- <span class="menu-text">Appendices</span></a>
+ <span class="menu-text">Reflection</span></a>
           <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-6" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
       <ul id="quarto-sidebar-section-6" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./6_barriers1.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">19</span>&nbsp; <span class="chapter-title">Exercise: Barriers</span></span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-7" aria-expanded="true">
+ <span class="menu-text">Appendices</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-7" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-7" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./references.html" class="sidebar-item-text sidebar-link">
@@ -340,20 +389,20 @@ ul.task-list li input[type="checkbox"] {
 <h2 data-number="4.1" class="anchored" data-anchor-id="no-data-not-reproducible"><span class="header-section-number">4.1</span> No data = not reproducible</h2>
 <p><strong>Computational reproducibility :=</strong></p>
 <blockquote class="blockquote">
-<p>“a second investigator (including the original researcher in the future) can recreate the final reported results of the project, including key quantitative findings, tables, and figures, given only a set of files and written instructions” <span class="citation" data-cites="Kitzes.etal.2018">(<a href="references.html#ref-Kitzes.etal.2018" role="doc-biblioref"><strong>Kitzes.etal.2018?</strong></a>)</span></p>
+<p>“a second investigator (including the original researcher in the future) can recreate the final reported results of the project, including key quantitative findings, tables, and figures, given only a set of files and written instructions” <span class="citation" data-cites="Kitzes.etal.2018">(<a href="references.html#ref-Kitzes.etal.2018" role="doc-biblioref">Kitzes et al., 2018, p. xxii</a>)</span></p>
 </blockquote>
 <p><svg preserveaspectratio="none" aria-hidden="true" role="img" viewbox="0 0 512 512" style="height:1.1em;width:1.1em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:currentColor;overflow:visible;position:relative;"><path d="M334.5 414c8.8 3.8 19 2 26-4.6l144-136c4.8-4.5 7.5-10.8 7.5-17.4s-2.7-12.9-7.5-17.4l-144-136c-7-6.6-17.2-8.4-26-4.6s-14.5 12.5-14.5 22l0 72L32 192c-17.7 0-32 14.3-32 32l0 64c0 17.7 14.3 32 32 32l288 0 0 72c0 9.6 5.7 18.2 14.5 22z"></path></svg> <em>Same data + same analysis = same results</em></p>
 <p><br>
 </p>
 <p><strong>Why reproducibility?</strong><br>
 Allows <em>independent researchers</em> to assess the analytic choices, assumptions, and implementations that led to a set of <em>scientific claims</em>.<br>
-<svg preserveaspectratio="none" aria-hidden="true" role="img" viewbox="0 0 512 512" style="height:1em;width:1em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:currentColor;overflow:visible;position:relative;"><path d="M334.5 414c8.8 3.8 19 2 26-4.6l144-136c4.8-4.5 7.5-10.8 7.5-17.4s-2.7-12.9-7.5-17.4l-144-136c-7-6.6-17.2-8.4-26-4.6s-14.5 12.5-14.5 22l0 72L32 192c-17.7 0-32 14.3-32 32l0 64c0 17.7 14.3 32 32 32l288 0 0 72c0 9.6 5.7 18.2 14.5 22z"></path></svg> Check for validity and generalizability <span class="citation" data-cites="Clyburne-Sherin.etal.2019 Obels.etal.2020">(<a href="references.html#ref-Clyburne-Sherin.etal.2019" role="doc-biblioref"><strong>Clyburne-Sherin.etal.2019?</strong></a>; <a href="references.html#ref-Obels.etal.2020" role="doc-biblioref"><strong>Obels.etal.2020?</strong></a>)</span></p>
+<svg preserveaspectratio="none" aria-hidden="true" role="img" viewbox="0 0 512 512" style="height:1em;width:1em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:currentColor;overflow:visible;position:relative;"><path d="M334.5 414c8.8 3.8 19 2 26-4.6l144-136c4.8-4.5 7.5-10.8 7.5-17.4s-2.7-12.9-7.5-17.4l-144-136c-7-6.6-17.2-8.4-26-4.6s-14.5 12.5-14.5 22l0 72L32 192c-17.7 0-32 14.3-32 32l0 64c0 17.7 14.3 32 32 32l288 0 0 72c0 9.6 5.7 18.2 14.5 22z"></path></svg> Check for validity and generalizability <span class="citation" data-cites="Clyburne-Sherin.etal.2019 Obels.etal.2020">(<a href="references.html#ref-Clyburne-Sherin.etal.2019" role="doc-biblioref">Clyburne-Sherin et al., 2019</a>; <a href="references.html#ref-Obels.etal.2020" role="doc-biblioref">Obels et al., 2020</a>)</span></p>
 <p><br>
 </p>
 </section>
 <section id="no-fair-data-reproducibility-tedious" class="level2" data-number="4.2">
 <h2 data-number="4.2" class="anchored" data-anchor-id="no-fair-data-reproducibility-tedious"><span class="header-section-number">4.2</span> No FAIR data = reproducibility tedious</h2>
-<p>But computational reproducibility isn’t as easy as it sounds <span class="citation" data-cites="Artner.etal.2021">(<a href="references.html#ref-Artner.etal.2021" role="doc-biblioref"><strong>Artner.etal.2021?</strong></a>)</span></p>
+<p>But computational reproducibility isn’t as easy as it sounds <span class="citation" data-cites="Artner.etal.2021">(<a href="references.html#ref-Artner.etal.2021" role="doc-biblioref">Artner et al., 2021</a>)</span></p>
 <div class="tabset-margin-container"></div><div class="panel-tabset">
 <ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true" aria-current="page">Design</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false">Results</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-3" role="tab" aria-controls="tabset-1-3" aria-selected="false">Conclusions</a></li></ul>
 <div class="tab-content">
@@ -377,15 +426,10 @@ Allows <em>independent researchers</em> to assess the analytic choices, assumpti
 </div>
 <div id="tabset-1-3" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-3-tab">
 <blockquote class="blockquote">
-<p><strong>Vagueness Makes Assessing Reproducibility a Nightmare</strong></p>
+<p><strong>Vagueness Makes Assessing Reproducibility a Nightmare</strong><br>
+most successful reproductions are predominantly the result of tedious and time-consuming work information about the provided raw data was often difficult to understand, and information about the relevant variables, data manipulations, and the used statistical model was often vague or inaccurate</p>
 </blockquote>
-<blockquote class="blockquote">
-<p>most successful reproductions are predominantly the result of tedious and time-consuming work</p>
-</blockquote>
-<blockquote class="blockquote">
-<p>information about the provided raw data was often difficult to understand, and information about the relevant variables, data manipulations, and the used statistical model was often vague or inaccurate</p>
-</blockquote>
-<p><span class="citation" data-cites="Artner.etal.2021">(<a href="references.html#ref-Artner.etal.2021" role="doc-biblioref"><strong>Artner.etal.2021?</strong></a>)</span></p>
+<p><span class="citation" data-cites="Artner.etal.2021">(<a href="references.html#ref-Artner.etal.2021" role="doc-biblioref">Artner et al., 2021, p. 12</a>)</span></p>
 </div>
 </div>
 </div>
@@ -395,7 +439,7 @@ Allows <em>independent researchers</em> to assess the analytic choices, assumpti
 <section id="no-data-barrier-to-replication" class="level2 page-columns page-full" data-number="4.3">
 <h2 data-number="4.3" class="anchored" data-anchor-id="no-data-barrier-to-replication"><span class="header-section-number">4.3</span> No data = barrier to replication</h2>
 <ul>
-<li>Evidence e.g.&nbsp;from replication attempts in cancer biology <span class="citation" data-cites="Errington.etal.2021">(<a href="references.html#ref-Errington.etal.2021" role="doc-biblioref"><strong>Errington.etal.2021?</strong></a>)</span></li>
+<li>Evidence e.g.&nbsp;from replication attempts in cancer biology <span class="citation" data-cites="Errington.etal.2021">(<a href="references.html#ref-Errington.etal.2021" role="doc-biblioref">Errington et al., 2021</a>)</span></li>
 <li>Due to various barriers, <strong>50</strong> of the <strong>193</strong> replication experiments could be <strong>conducted</strong> at all</li>
 <li>Missing data = major barrier to compute parameters to replicate</li>
 </ul>
@@ -408,6 +452,23 @@ Please <a href="https://cryptpad.fr/pad/#/2/pad/edit/cuCPFUjVKcURc7JZSKt57dK2/em
 </p>
 
 
+<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" data-line-spacing="2" role="list" style="display: none">
+<div id="ref-Artner.etal.2021" class="csl-entry" role="listitem">
+Artner, R., Verliefde, T., Steegen, S., Gomes, S., Traets, F., Tuerlinckx, F., &amp; Vanpaemel, W. (2021). The reproducibility of statistical results in psychological research: <span>An</span> investigation using unpublished raw data. <em>Psychological Methods</em>, <em>26</em>(5), 527–546. <a href="https://doi.org/10.1037/met0000365">https://doi.org/10.1037/met0000365</a>
+</div>
+<div id="ref-Clyburne-Sherin.etal.2019" class="csl-entry" role="listitem">
+Clyburne-Sherin, A., Fei, X., &amp; Green, S. A. (2019). Computational <span>Reproducibility</span> via <span>Containers</span> in <span>Psychology</span>. <em>Meta-Psychology</em>, <em>3</em>. <a href="https://doi.org/10.15626/MP.2018.892">https://doi.org/10.15626/MP.2018.892</a>
+</div>
+<div id="ref-Errington.etal.2021" class="csl-entry" role="listitem">
+Errington, T. M., Denis, A., Perfito, N., Iorns, E., &amp; Nosek, B. A. (2021). Challenges for assessing replicability in preclinical cancer biology. <em>eLife</em>, <em>10</em>, e67995. <a href="https://doi.org/10.7554/eLife.67995">https://doi.org/10.7554/eLife.67995</a>
+</div>
+<div id="ref-Kitzes.etal.2018" class="csl-entry" role="listitem">
+Kitzes, J., Turek, D., &amp; Deniz, F. (Eds.). (2018). <em>The practice of reproducible research: Case studies and lessons from the data-intensive sciences</em>. University of California Press.
+</div>
+<div id="ref-Obels.etal.2020" class="csl-entry" role="listitem">
+Obels, P., Lakens, D., Coles, N. A., Gottfried, J., &amp; Green, S. A. (2020). Analysis of <span>Open Data</span> and <span>Computational Reproducibility</span> in <span>Registered Reports</span> in <span>Psychology</span>. <em>Advances in Methods and Practices in Psychological Science</em>, <em>3</em>(2), 229–237. <a href="https://doi.org/10.1177/2515245920918872">https://doi.org/10.1177/2515245920918872</a>
+</div>
+</div>
 </section>
 
 </main> <!-- /main -->

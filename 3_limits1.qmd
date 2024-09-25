@@ -12,10 +12,11 @@ The protection of individuals comes first and is more important than the potenti
 
 * e.g., individuals traumatized by war or who experienced sexual abuse
 * At the same time: Can sharing data help to protect these groups from being over-researched (possibly re-traumatization)?
+  - Trauma patients support data sharing "to help others", when purpose and process of sharing is explained [@Lin.etal.2019; @Campbell.etal.2023a]
 
 ### "Closed doors"
 
-* cases in which field access is obstructed or denied by the data provision [@Prosser.etal.2022]
+* cases in which field access is obstructed or denied by the data provision [@Prosser.etal.2023]
 * cases in which sharing reduces the reduces the willingness to participate
 
 

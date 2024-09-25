@@ -49,7 +49,8 @@ codebook_data <- formr_results("utrecht_od") %>% # pulls survey results
   
                    subset(select = -c(session_id, # and I'm just gonna delete
                                       study_id,   # these formr variables
-                                      iteration))
+                                      iteration,
+                                      quan_qual_other))
 
 
 ############################################################################## #
@@ -91,3 +92,10 @@ Create codebook
 codebook(codebook_data)
 ```
 
+
+# Open text field
+
+* *"No obstacles"*
+* *"No consent available"*
+* *"What to do with (very) sensitive data?"*
+* *"Codebook preparation"*

@@ -1,0 +1,21 @@
+{
+  "hash": "503ae2a6bb01ed49d5485cbac47eda8f",
+  "result": {
+    "engine": "knitr",
+    "markdown": "::: {.cell}\n\n:::\n\n\n\n\n# Focus: Tools and Resources\n\n\\\n\\\n\n:::: {.columns}\n::: {.column width=\"48%\" .color-box1}\n![](www/holepunch.png)  \n\n### Holepunch {.unnumbered}\n\n* **Share a copy of your R Studio project** via button click\n* Accessible over **all platforms**: Project opens in browser\n* **No installation** needed, only internet access and a browser\n* *Best used in combination with [renv](https://rstudio.github.io/renv/articles/renv.html) or [groundhog](https://groundhogr.com/) to secure package version stability*\n\n\n\n\n::: {.callout-note collapse=\"true\" icon=false}\n#### Example\n\nGo to [this github repo](https://github.com/j-5chneider/subcommunitiesOS) and click on \"launch binder\".\n\n:::\n:::\n\n::: {.column width=\"1%\"}\n:::\n\n::: {.column width=\"48%\" .color-box2}\n![](www/input-output.jpg)  \n\n\\\n\n### Enriched input-output-documents {.unnumbered}  \n\n* Enables data analysis and results to be reviewed **side-by-side**\n* Possible to **add** formatted text, pictures, videos, ...\n* Several **layout options** (e.g. using tabs, table of content)\n* with package [xfun::embed_file()](https://bookdown.org/yihui/rmarkdown-cookbook/embed-file.html) we can embed data *into* the HTML\n\n::: {.callout-note collapse=\"true\" icon=false}\n#### Example\n\nSee [this validation study](https://raw.githack.com/j-5chneider/uzvvtp-las/refs/heads/master/5_validation/validation.html) of an instrument.\n\n:::\n\n\n:::\n::::\n\n\\\n\n\n:::: {.columns}\n::: {.column width=\"48%\" .color-box3}\n![](www/codebook_web.jpg)  \n\n### R codebook-package{.unnumbered}  \n\n* **semi-automatic** option to create a codebook\n* labelled data ![](5_focus3_files/figure-pdf/fa-icon-9b9d9e1ac0a9a4e9374b5708d3472fe8.pdf){height=1em width=1em} codebook with **minimal effort**\n* See [paper and introduction](https://doi.org/10.1177/2515245919838783)\n* Not keen on using R? Use [this web app](https://opencpu.psych.bio.uni-goettingen.de/ocpu/library/codebook/www/)\n\n::: {.callout-note collapse=\"true\" icon=false}\n#### Examples\n\nSee \n\n* the codebook of [this small scale study](https://raw.githack.com/j-5chneider/subcommunitiesOS/refs/heads/main/documentation/codebook.html) or \n* the codebook of the [first sample from this larger study](https://raw.githack.com/j-5chneider/re-building-trust-pub/main/3_data%2Bcodebooks/codebook_study1_undergrad.html).\n\n:::\n\n\n\n\n\n:::\n\n::: {.column width=\"1%\"}\n:::\n\n::: {.column width=\"48%\" .color-box4}\n![](www/rix_logo.png)  \n\n### rix package  {.unnumbered}  \n\n* The future of reproducibility?\n* Creates a **self-contained** time-stamped capsule in which everything necessary is provided (like docker + renv at the same time)\n* Uses the package manager **Nix**\n\n\n::: {.callout-note collapse=\"true\" icon=false}\n#### Introduction\n\nSee [this video of a workshop](https://zpid.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=864361e7-d573-457b-95fc-b1a30073651e)\n\n:::\n\n\n:::\n::::",
+    "supporting": [
+      "5_focus3_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {
+      "knitr": [
+        "{\"type\":\"list\",\"attributes\":{},\"value\":[]}"
+      ]
+    },
+    "preserve": null,
+    "postProcess": false
+  }
+}

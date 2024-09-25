@@ -39,3 +39,20 @@ Working closely together, but not at the [research data center at DIPF](https://
 
 
 \
+
+
+### Normalizing disability I guess
+
+:::: {.columns}
+
+::: {.column width="25%"}
+![](www/stutter-flag.png){width=85%}
+:::
+
+::: {.column width="75%"}
+\
+
+It's not a brain-freeze, I am not confused, I stutter ;)
+:::
+
+::::

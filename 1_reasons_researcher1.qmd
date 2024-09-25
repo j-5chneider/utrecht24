@@ -1,39 +1,36 @@
 # Researcher
 
 ```{r}
+#| echo: false
+library(fontawesome)
 ```
 
-## Researchers' perceptions
+## Get cited
 
-Open Data Survey [@Goodey.etal.2022]
-
-* **75%** of researchers say there is too little credit for sharing data 
-* main drivers:
-  - perceived **higher citation** (67%)
-  - increased perceived **impact** and **visibility** (61%)
+* studies with available or link to data: **9%** or **25%** higher citation rates [@Piwowar.Vision.2013; @Colavizza.etal.2020]
+* But, **selection bias**: Willingness to share `r fa("arrows-left-right")` strength of evidence and quality of reporting [@Wicherts.etal.2011]  
+* But, **higher trust** in authors openly sharing [@Schneider.etal.2022c]
 
 \
 
-## Classical metrics
+## Get funded
 
-* Data for reuse: Additional publication (e.g., data note in F1000 Research)
-* Is there higher citation?
-   - studies with available data: **9%** more citations [@Piwowar.Vision.2013]
-   - studies with link to data in a repository: **25%** higher citation rates [@Colavizza.etal.2020]
+* Funders &#127466;&#127482; @ERC.2022 & &#127465;&#127466; @DFG.2015b require open data
+* Federal agencies [@IEA.2022] and scientific societies [@APA.2017] endorse open sharing
 
-**But:**  
-Selection bias: Willingness to share `r fontawesome::fa("arrows-left-right", height=".9em", width=".9em")` strength of evidence and quality of reporting [@Wicherts.etal.2011]
-
-**But:**  
-With higher transparency, researchers have higher trust in authors [@Schneider.etal.2022c]  
 \
 
-## New metrics: Get hired!
 
-new metrics for evaluation evolving
+## Get published  
 
-* [CoARA](https://coara.eu/): "Value outputs associated with openness (FAIR data sets, [...]" [@CoARA.2022, p. 21]
-   - signatories: DGPs, ERC, European Commission, DFG, Leibniz Association, ...
+* [Some journals](https://topfactor.org/journals?factor=Data+Transparency) mandate *data availability statement*
+
+\
+
+## Get hired
+
+* new metrics for evaluation on the rise
+* [CoARA](https://coara.eu/): "Value outputs associated with openness (FAIR data sets, [...]" [@CoARA.2022, p. 21]<br />`r fa("long-arrow-right")` *Signatories: ERC, League of European Research Universities, European University Association ...*
 * Example: DGPs recommendations on hiring and promotion [@Schonbrodt.etal.2022; @Gartner.etal.2022]
   
 ![](www/dgps_eval.jpg){width=100%}  

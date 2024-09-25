@@ -1,0 +1,21 @@
+{
+  "hash": "2fb24f546db829abc7f3b80fd22283cc",
+  "result": {
+    "engine": "knitr",
+    "markdown": "# Researcher\n\n\n\n::: {.cell}\n\n:::\n\n\n\n## Get cited\n\n* studies with available or link to data: **9%** or **25%** higher citation rates [@Piwowar.Vision.2013; @Colavizza.etal.2020]\n* But, **selection bias**: Willingness to share ![](1_reasons_researcher1_files/figure-pdf/fa-icon-1a87162541883e2f3d3275b0f82c1225.pdf){height=1em width=1em} strength of evidence and quality of reporting [@Wicherts.etal.2011]  \n* But, **higher trust** in authors openly sharing [@Schneider.etal.2022c]\n\n\\\n\n## Get funded\n\n* Funders &#127466;&#127482; @ERC.2022 & &#127465;&#127466; @DFG.2015b require open data\n* Federal agencies [@IEA.2022] and scientific societies [@APA.2017] endorse open sharing\n\n\\\n\n\n## Get published  \n\n* [Some journals](https://topfactor.org/journals?factor=Data+Transparency) mandate *data availability statement*\n\n\\\n\n## Get hired\n\n* new metrics for evaluation on the rise\n* [CoARA](https://coara.eu/): \"Value outputs associated with openness (FAIR data sets, [...]\" [@CoARA.2022, p. 21]<br />![](1_reasons_researcher1_files/figure-pdf/fa-icon-9b9d9e1ac0a9a4e9374b5708d3472fe8.pdf){height=1em width=1em} *Signatories: ERC, League of European Research Universities, European University Association ...*\n* Example: DGPs recommendations on hiring and promotion [@Schonbrodt.etal.2022; @Gartner.etal.2022]\n  \n![](www/dgps_eval.jpg){width=100%}  \n[@Schonbrodt.etal.2022, p. 4]\n\n\n::: {.column-margin}\nQuestions to be answered at the end?  \nPlease [put them here](https://cryptpad.fr/pad/#/2/pad/edit/cuCPFUjVKcURc7JZSKt57dK2/embed/)!\n:::\n\n\\",
+    "supporting": [
+      "1_reasons_researcher1_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {
+      "knitr": [
+        "{\"type\":\"list\",\"attributes\":{},\"value\":[]}"
+      ]
+    },
+    "preserve": null,
+    "postProcess": false
+  }
+}

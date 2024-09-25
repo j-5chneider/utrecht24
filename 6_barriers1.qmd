@@ -18,6 +18,6 @@ Questions to be answered at the end?
 Please [put them here](https://cryptpad.fr/pad/#/2/pad/edit/cuCPFUjVKcURc7JZSKt57dK2/embed/)!
 :::
 
-![](www/workflow.jpg){width=100%}
+![](www/workflow0.jpg){width=100%}
 
 \

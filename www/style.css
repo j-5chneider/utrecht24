@@ -20,6 +20,12 @@ Grau: #646567
   text-align: center;
 }
 
+.grey-border {
+  border: 3px solid lightgrey;
+  border-radius: 7px;
+  margin: 5px;
+}
+
 
 .color-box1 {
   background-color: #ffd1c3;
@@ -49,4 +55,25 @@ Grau: #646567
   border-radius: 5px;
   margin: 0 5px 0 5px;
   padding: 5px;
+}
+
+
+.highlight-red {
+  background-color: #DB6A69; /*#F29400*/
+  color: #FEC9D3 !important;
+  padding: 10px;
+  border-radius: 7px;
+}
+
+.highlight-green {
+  background-color: #66D4AB; /*#F29400*/
+  color: #D7FFEF !important;
+  padding: 10px;
+  border-radius: 7px;
+}
+
+.highlight-orange-bright {
+  background-color: #fef0df; /*#F29400*/
+  padding: 10px;
+  border-radius: 7px;
 }

@@ -20,7 +20,27 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
@@ -267,7 +287,7 @@ ul.task-list li input[type="checkbox"] {
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" aria-expanded="true">
- <span class="menu-text">Reflection</span></a>
+ <span class="menu-text">Thematic focus</span></a>
           <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
@@ -275,8 +295,20 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-5" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./5_barriers1.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">16</span>&nbsp; <span class="chapter-title">Exercise: Barriers</span></span></a>
+  <a href="./5_focus1.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">16</span>&nbsp; <span class="chapter-title">Focus: Can I share?</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./5_focus2.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">17</span>&nbsp; <span class="chapter-title">Focus: How to share?</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./5_focus3.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">18</span>&nbsp; <span class="chapter-title">Focus: Tools and Resources</span></span></a>
   </div>
 </li>
       </ul>
@@ -284,12 +316,29 @@ ul.task-list li input[type="checkbox"] {
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-6" aria-expanded="true">
- <span class="menu-text">Appendices</span></a>
+ <span class="menu-text">Reflection</span></a>
           <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-6" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
       <ul id="quarto-sidebar-section-6" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./6_barriers1.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">19</span>&nbsp; <span class="chapter-title">Exercise: Barriers</span></span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-7" aria-expanded="true">
+ <span class="menu-text">Appendices</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-7" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-7" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./references.html" class="sidebar-item-text sidebar-link">
@@ -336,7 +385,7 @@ ul.task-list li input[type="checkbox"] {
 <li>can <strong>readily access</strong> the data</li>
 <li>at no more than a <strong>reasonable reproduction cost</strong> (i.e., internet connection)</li>
 </ul>
-<p><span class="citation" data-cites="OpenKnowledgeFoundation.2023a">(<a href="references.html#ref-OpenKnowledgeFoundation.2023a" role="doc-biblioref"><strong>OpenKnowledgeFoundation.2023a?</strong></a>)</span></p>
+<p><span class="citation" data-cites="OpenKnowledgeFoundation.2023a">(<a href="references.html#ref-OpenKnowledgeFoundation.2023a" role="doc-biblioref">Open Knowledge Foundation, 2023</a>)</span></p>
 <p><br>
 </p>
 <div class="callout callout-style-default callout-tip callout-titled">
@@ -350,17 +399,25 @@ Openness is not a dogma and not a dichotomy
 </div>
 <div class="callout-body-container callout-body">
 <p>“As open as possible as closed as necessary”<br>
-<span class="citation" data-cites="EuropeanCommission.2023a">(<a href="references.html#ref-EuropeanCommission.2023a" role="doc-biblioref"><strong>EuropeanCommission.2023a?</strong></a>)</span></p>
+<span class="citation" data-cites="EuropeanCommission.2023a">(<a href="references.html#ref-EuropeanCommission.2023a" role="doc-biblioref">European Commission, 2023, p. 36</a>)</span></p>
 </div>
 </div>
-
 
 
 
 <div class="no-row-height column-margin column-container"><div class="">
 <p>Questions to be answered at the end?<br>
 Please <a href="https://cryptpad.fr/pad/#/2/pad/edit/cuCPFUjVKcURc7JZSKt57dK2/embed/">put them here</a>!</p>
-</div></div></main> <!-- /main -->
+</div></div><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" data-line-spacing="2" role="list" style="display: none">
+<div id="ref-EuropeanCommission.2023a" class="csl-entry" role="listitem">
+European Commission. (2023). <em>Horizon <span>Europe</span> (<span>HORIZON</span>). <span>HE Programme Guide</span>. <span>Version</span> 4.0</em>. Publications Office.
+</div>
+<div id="ref-OpenKnowledgeFoundation.2023a" class="csl-entry" role="listitem">
+Open Knowledge Foundation. (2023). What is <span>Open Data</span>? In <em>Open Data Handbook</em>. https://opendatahandbook.org/guide/en/what-is-open-data/.
+</div>
+</div>
+
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

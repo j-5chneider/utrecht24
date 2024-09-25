@@ -20,7 +20,27 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
@@ -267,7 +287,7 @@ ul.task-list li input[type="checkbox"] {
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" aria-expanded="true">
- <span class="menu-text">Reflection</span></a>
+ <span class="menu-text">Thematic focus</span></a>
           <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
@@ -275,8 +295,20 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-5" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./5_barriers1.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">16</span>&nbsp; <span class="chapter-title">Exercise: Barriers</span></span></a>
+  <a href="./5_focus1.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">16</span>&nbsp; <span class="chapter-title">Focus: Can I share?</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./5_focus2.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">17</span>&nbsp; <span class="chapter-title">Focus: How to share?</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./5_focus3.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">18</span>&nbsp; <span class="chapter-title">Focus: Tools and Resources</span></span></a>
   </div>
 </li>
       </ul>
@@ -284,12 +316,29 @@ ul.task-list li input[type="checkbox"] {
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-6" aria-expanded="true">
- <span class="menu-text">Appendices</span></a>
+ <span class="menu-text">Reflection</span></a>
           <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-6" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
       <ul id="quarto-sidebar-section-6" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./6_barriers1.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">19</span>&nbsp; <span class="chapter-title">Exercise: Barriers</span></span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-7" aria-expanded="true">
+ <span class="menu-text">Appendices</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-7" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-7" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./references.html" class="sidebar-item-text sidebar-link">
@@ -358,7 +407,7 @@ ul.task-list li input[type="checkbox"] {
 <tr class="odd">
 <td>Answer new research questions</td>
 <td>Saves resources</td>
-<td>analysis potential of data, good documentation <span class="citation" data-cites="Steinhardt.etal.2021 Logan.etal.2021">(<a href="references.html#ref-Steinhardt.etal.2021" role="doc-biblioref"><strong>Steinhardt.etal.2021?</strong></a>; <a href="references.html#ref-Logan.etal.2021" role="doc-biblioref"><strong>Logan.etal.2021?</strong></a>)</span></td>
+<td>analysis potential of data, good documentation <span class="citation" data-cites="Steinhardt.etal.2021 Logan.etal.2021">(<a href="references.html#ref-Logan.etal.2021" role="doc-biblioref">Logan et al., 2021</a>; <a href="references.html#ref-Steinhardt.etal.2021" role="doc-biblioref">Steinhardt et al., 2021</a>)</span></td>
 </tr>
 <tr class="even">
 <td>Teaching / student theses</td>
@@ -368,7 +417,7 @@ ul.task-list li input[type="checkbox"] {
 <tr class="odd">
 <td>Meta-analyses</td>
 <td>Easier estimation of parameters</td>
-<td>Strictly reproducible code <span class="citation" data-cites="Burgard.etal.2022">(e.g., <a href="references.html#ref-Burgard.etal.2022" role="doc-biblioref"><strong>Burgard.etal.2022?</strong></a>)</span></td>
+<td>Strictly reproducible code <span class="citation" data-cites="Burgard.etal.2022">(e.g., <a href="references.html#ref-Burgard.etal.2022" role="doc-biblioref">Burgard et al., 2022</a>)</span></td>
 </tr>
 <tr class="even">
 <td>Historical perspective</td>
@@ -383,7 +432,18 @@ ul.task-list li input[type="checkbox"] {
 <div class="no-row-height column-margin column-container"><div class="">
 <p>Questions to be answered at the end?<br>
 Please <a href="https://cryptpad.fr/pad/#/2/pad/edit/cuCPFUjVKcURc7JZSKt57dK2/embed/">put them here</a>!</p>
-</div></div></section>
+</div></div><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" data-line-spacing="2" role="list" style="display: none">
+<div id="ref-Burgard.etal.2022" class="csl-entry" role="listitem">
+Burgard, T., Bosnjak, M., &amp; Studtrucker, R. (2022). <span>PsychOpen CAMA</span>: <span>Publication</span> of community-augmented meta-analyses in psychology. <em>Research Synthesis Methods</em>, <em>13</em>(1), 134–143. <a href="https://doi.org/10.1002/jrsm.1536">https://doi.org/10.1002/jrsm.1536</a>
+</div>
+<div id="ref-Logan.etal.2021" class="csl-entry" role="listitem">
+Logan, J. A. R., Hart, S. A., &amp; Schatschneider, C. (2021). Data <span>Sharing</span> in <span>Education Science</span>. <em>AERA Open</em>, <em>7</em>, 233285842110064. <a href="https://doi.org/10.1177/23328584211006475">https://doi.org/10.1177/23328584211006475</a>
+</div>
+<div id="ref-Steinhardt.etal.2021" class="csl-entry" role="listitem">
+Steinhardt, I., Fischer, C., Heimstädt, M., Hirsbrunner, S. D., İkiz-Akıncı, D., Kressin, L., Kretzer, S., Möllenkamp, A., Porzelt, M., Rahal, R.-M., Schimmler, S., Wilke, R., &amp; Wünsche, H. (2021). <em>Opening up and <span>Sharing Data</span> from <span>Qualitative Research</span>: <span>A Primer</span>: <span>Results</span> of a workshop run by the research group ,,<span>Digitalization</span> and <span>Science</span>“ at the <span>Weizenbaum Institute</span> in <span>Berlin</span> on <span>January</span> 17, 2020</em>. <a href="https://doi.org/10.34669/WI.WS/17">https://doi.org/10.34669/WI.WS/17</a>
+</div>
+</div>
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

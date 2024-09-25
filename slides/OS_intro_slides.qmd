@@ -1,0 +1,184 @@
+---
+title: "Open Science"
+subtitle: "A very short intro"
+title-slide-attributes:
+  data-background-image: ../www/title-bg.jpg
+  data-background-size: cover
+  #data-background-opacity: "0.3"
+author: "<b>Jürgen Schneider</b>"
+date: "25. Sep 2024" # today
+date-format: "DD MMMM YYYY"
+format: 
+  revealjs:
+      theme: white # sky default
+      logo: ../www/dipf-logo.png
+      footer: "Workshop materials: [t1p.de/utrecht](https://t1p.de/utrecht)"
+      smaller: true
+      scrollable: true
+      transition: fade
+      width: 1500
+      height: 850
+      hide-inactive-cursor: false
+      embed-resources: true
+editor: source
+editor_options: 
+  chunk_output_type: console
+bibliography: ../references.bib
+csl: https://raw.githubusercontent.com/citation-style-language/styles/master/apa.csl
+css: ../www/style.css
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE,
+                      message=FALSE, 
+                      warning=FALSE)
+### DOWNLOAD NEWEST SOURCES
+# download.file("https://drive.google.com/uc?export=download&id=1ASV99YHMHSNChSNzqbZwvz2SiqYvmqO_", # befindet sich im DIPF Ordner
+# "www/references.bib", overwrite = T)
+
+
+library(fontawesome)
+```
+
+## Lines of reasoning
+
+:::: {.columns}
+::: {.column width="70%"}
+
+**Open science harmonizes scientific practices with envisioned ideals**
+
+* **Public perspective**<br />Public ownership of the scientific process and results
+* **Democratic perspective**<br />Access to knowledge and research should be equally distributed
+* **Infrastructure perspective**<br />Research needs infrastructure to maximize its potential and support researchers
+* **Measurement perspective**<br />Research needs valid metrics to measure scientific contribution
+* **Pragmatic perspective**<br />Research should be as effective and efficient as possible
+
+[@Fecher.Friesike.2014]
+:::
+
+
+::: {.column width="26%"}
+
+
+:::
+::::
+
+
+## Lines of reasoning
+
+:::: {.columns}
+::: {.column width="70%"}
+
+**Open science harmonizes scientific practices with envisioned ideals**
+
+* **Public perspective**<br />Public ownership of the scientific process and results
+* **Democratic perspective**<br />Access to knowledge and research should be equally distributed
+* **Infrastructure perspective**<br />Research needs infrastructure to maximize its potential and support researchers
+* **Measurement perspective**<br />Research needs valid metrics to measure scientific contribution
+* **Pragmatic perspective**<br />Research should be as effective and efficient as possible
+
+[@Fecher.Friesike.2014]
+:::
+
+
+::: {.column width="26%"}
+::: {.column width="100%" .highlight-green .text-center}
+`r fa("triangle-exclamation", width = "50px", height = "50px", fill = "#D7FFEF")`
+
+**current**<br />**challenges**
+:::
+
+<br />
+
+::: {.column width="100%" .highlight-red .text-center}
+`r fa("robot", width = "50px", height = "50px", fill = "#FEC9D3")`  
+
+**new technological<br />advancements**
+:::
+
+:::
+::::
+
+
+
+## Example of a challenge
+
+
+:::: {.columns}
+::: {.column width="42%" .grey-border}
+![](../www/paper1.jpg)  
+<https://doi.org/10.1016/j.compedu.2023.104986>
+:::
+
+::: {.column width="42%" .grey-border}
+![](../www/paper2.jpg)  
+<https://doi.org/10.1177/09567976231198184>
+:::
+
+::: {.column width="42%" .grey-border}
+![](../www/paper3.jpg)
+<https://doi.org/10.1007/s10648-023-09829-y>
+:::
+
+::: {.column width="42%" .grey-border}
+![](../www/paper4.jpg)
+<https://doi.org/10.1002/sce.21825>
+:::
+::::
+
+## Example of a challenge
+
+![](../www/oa-map.jpg){width=78%}[@Boudry.etal.2019]
+
+
+## Example of a technological advancement
+\
+
+**Imagine: You analyze your data and...**
+
+. . .
+
+:::: {.columns}
+::: {.column width="35%"}
+![](../www/give.jpg){width=100%}
+:::
+
+::: {.column width="65%"}
+
+* someone wants to use the results for a meta-analysis
+* a reviewer wants to check your analyses
+* a team member wants to expand on your analyses
+* ...
+
+\
+
+*In any case: You'd need to share your analyses (and data).*   
+*How would you do it?*
+
+:::
+::::
+
+. . .
+
+:::: {.columns}
+::: {.column width="35%"}
+:::
+::: {.column width="60%" .highlight-orange-bright}
+One option: Provide a browser-based instance of your R-project.  
+[View example](https://github.com/j-5chneider/subcommunitiesOS).
+:::
+::::
+
+
+
+
+## References
+
+<div id="refs"></div>
+
+
+## Credit
+
+Title: <a href="https://unsplash.com/de/@adrian_infernus?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Adrian Infernus</a> on <a href="https://unsplash.com/de/fotos/ein-rosa-blauer-himmel-mit-ein-paar-wolken-GLf7bAwCdYg?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>  
+  
+Icons: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) [Fontwaesome](https://fontawesome.com) 

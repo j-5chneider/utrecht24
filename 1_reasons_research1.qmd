@@ -67,10 +67,8 @@ ggplot(artner, aes(x=what, y=count)) +
 
 ### Conclusions
 
-> **Vagueness Makes Assessing Reproducibility a Nightmare**  
-  
+> **Vagueness Makes Assessing Reproducibility a Nightmare**   
 > most successful reproductions are predominantly the result of tedious and time-consuming work
-  
 > information about the provided raw data was often difficult to understand, and information about the relevant variables, data manipulations, and the used statistical model was often vague or inaccurate  
 
 [@Artner.etal.2021, p. 12]

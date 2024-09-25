@@ -168,8 +168,8 @@ Important as an assessment criterion is the respondent's **capacity for understa
 
 ## Whom and how do we ask?
 
-- Some studies suggest that participants **rarely read** the information or consent form carefully
-- Some studies suggest that *very* **easy language** may be better for understanding (and thus being informed) than "standard" language  (Geiger, ...)
+- Some studies suggest that participants **rarely read** the information or consent form carefully [@Parfenova.etal.2024; @Pedersen.etal.2011]
+- Some studies suggest that *very* **easy language** may be better for understanding (and thus being informed) than "standard" language  [@Geier.etal.2021]
 - The **minimum age** differs between EU countries, can go down to 13 years (Germany: 16, Austria: 15)
 - With studies involving **pupils in schools**, additional regulations may come into effect that require parental consent.
 

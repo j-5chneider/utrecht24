@@ -5,13 +5,13 @@
 
 Examples of societies that have established a policy on open and FAIR data.  
   
+![](www/logo-apa.png){width=200px}
 ![](www/logo-dgps.png){width=200px}
-![](www/logo-dgs.jpg){width=200px}
 ![](www/logo-dgfe.jpg){width=200px}
 ![](www/logo-gebf.jpg){width=200px}
 ![](www/logo-gfd.jpg){width=200px}
 
-[@Gollwitzer.etal.2021; @DGS.2019; @DGfE.etal.2020]
+[@Gollwitzer.etal.2021; @APA.2017; @DGfE.etal.2020]
 
 ```{r}
 ```
@@ -37,7 +37,7 @@ See the [TOP Factor website](https://topfactor.org/journals?factor=Data+Transpar
   
 \
 
-> `r fontawesome::fa("file-circle-xmark", height="1.2em", width="1.2em")` Evidence that **"Data available upon reasonable request"** often does not keep its promise. Only **6.8%** of data sets were acutally provided in an investigation [@Gabelica.etal.2022]
+> `r fontawesome::fa("file-circle-xmark", height="1.2em", width="1.2em")` Evidence that **"Data available upon reasonable request"** often does not keep its promise. Only **6.8% / 17%** of data sets were acutally provided in an investigation [@Gabelica.etal.2022; @Hussey.2023]
 
 
 

@@ -15,13 +15,17 @@
    
 **Resources**  
 
-* [Checklist of legally compliant consent forms, German](https://doi.org/10.25656/01:22297) (VerbundFDB, 2019)
-* [Template for informed consent, German standard language](https://doi.org/10.25656/01:22301) (VerbundFDB, 2018)
-* [Template for informed consent, German plain language](https://doi.org/10.25656/01:22302) (VerbundFDB, 2018)
-* [Template for informed consent, German](https://www.qualiservice.org/de/datenschutz.html) (Qualiservice)
-* [Explanations including template (DGPs), German](https://zwpd.transmit.de/images/zwpd/dienstleistungen/ethikkommission/0.1a_datenschutzrechtliche_empfehlungen_einwilligungforschungsvorhaben.pdf) (not specific for reuse)
-* [Overview and links concerning informed consent (ZPID), English](https://datawizkb.leibniz-psychology.org/index.php/before-my-project-starts/informed-consent/)
-* [Explanations and definitions around informed consent (Michigan Tech), US](https://www.mtu.edu/research/integrity/docs/michigan-tech-hrpp-standard-operations-procedures.pdf) (not specific for reuse)
+* &#127482;&#127480; [Recommendations of ICPSR](https://www.icpsr.umich.edu/web/pages/datamanagement/confidentiality/conf-language.html)
+* &#127468;&#127463; [Information, samples and model forms of UK Data Service](https://ukdataservice.ac.uk/learning-hub/research-data-management/ethical-issues/consent-for-data-sharing/)
+* &#127465;&#127466; [Information, samples and model forms of VerbundFDB](https://www.forschungsdaten-bildung.de/handreichungen)
+* &#127475;&#127473; [Good overview with Dos and Don'ts, University of Utrecht](https://www.uu.nl/en/research/research-data-management/guides/legal-considerations/how-to-write-an-informed-consent-form)
+* [Overview + links (ZPID), English](https://datawizkb.leibniz-psychology.org/index.php/before-my-project-starts/informed-consent/)
+* [Explanations + definitions (Michigan Tech), US](https://www.mtu.edu/research/integrity/docs/michigan-tech-hrpp-standard-operations-procedures.pdf)
+* [Checklist, German](https://doi.org/10.25656/01:22297)
+* [Template, German standard language](https://doi.org/10.25656/01:22301)
+* [Template, German plain language](https://doi.org/10.25656/01:22302)
+* [Template (qualitative data), German](https://www.qualiservice.org/de/datenschutz.html)
+* [Explanations + template (DGPs), German](https://zwpd.transmit.de/images/zwpd/dienstleistungen/ethikkommission/0.1a_datenschutzrechtliche_empfehlungen_einwilligungforschungsvorhaben.pdf)
 
 \
 
@@ -63,12 +67,8 @@ An example: [Project DESI](http://dx.doi.org/10.7477/6:1:1), where
 :::
 
    
-**Resources**  
 
-* [Examples of restriction levels (VerbundFDB)](https://doi.org/10.25656/01:21990) [@Meyermann.Porzelt.2019, p. 30f]
-* [Examples of restriction levels (DGPs)](https://doi.org/10.1026/0033-3042/a000514) [@DGPs.2021, p. 141ff]
-
-**Alternatives**  
+**Alternatives to restricting**  
 
 * *Embargo period*
   - Specify a time period, before data go public

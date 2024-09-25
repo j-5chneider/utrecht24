@@ -29,8 +29,7 @@ We could have the greatest data set to answer further research questions - if ou
 
 * Get a persistent identifier (e.g., DOI), where you provided your data
   - search for a research data center that fits your needs: [re3data.org](https://www.re3data.org/)
-  - recommended research data centers: [Verbund FDB (education, Germany)](https://www.forschungsdaten-bildung.de/), [RDC at ZPID (psychology, Germany)](https://rdc-psychology.org/), ...
-  - recommended repositories: [Zenodo](https://zenodo.org/), [psycharchives.org](https://www.psycharchives.org/), [osf.io](https://osf.io/), ... 
+  - recommended repositories: [Zenodo](https://zenodo.org/), [osf.io](https://osf.io/), ... 
 * Mention DOI in publication that builds on this data (e.g., in the "data accessibility statement")
 * Describe your data as richly as possible (metadata). *Research data centers* offer form fields tailored to the discipline or data type. With *repositories* use alternative possibilities, such as keyword fields.
   - e.g., which variables does the quantitative data set contain?

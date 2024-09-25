@@ -11,11 +11,14 @@ Remember?
    
 **Resources**  
 
+
 * R Package [`codebook`](https://rubenarslan.github.io/codebook/articles/codebook_tutorial.html)
   - semi-automated creation of a codebook (depending on how well prepared/labelled your data set is)
   - in combination with the [formr](https://formr.org/) survey framework, this package saves you a ton of time
   - still has some minor bugs, be prepared to mingle with it
 * Codebook as a result of using [DataWiz](https://datawiz.leibniz-psychology.org/DataWiz/)
+* Institute of Education Science's ["Guidelines for a Codebook"](https://ies.ed.gov/ncee/rel/regions/central/pdf/CE5.3.2-Guidelines-for-a-Codebook.pdf)
+* Information by ICPSR on ["What is a Codebook?"](https://www.icpsr.umich.edu/web/ICPSR/cms/1983)
 
 ::: {.column-margin}
 Questions to be answered at the end?  

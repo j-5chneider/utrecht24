@@ -10,8 +10,9 @@ For resource intensive data collections this could save you a lot of time and mo
 Research data centers have searchable databases
 
 * [re3data.org](https://www.re3data.org/) (Database to search for databases)
-* [Verbund FDB](https://www.forschungsdaten-bildung.de/) (Education)
-* [RDC at ZPID](https://rdc-psychology.org/) (Psychology)
+* [Verbund FDB (Germany)](https://www.forschungsdaten-bildung.de/) 
+* [Open ICPSR (USA)](https://www.openicpsr.org/openicpsr/)
+* [UK Data Archive (UK)](https://www.data-archive.ac.uk/)
 
 \
 

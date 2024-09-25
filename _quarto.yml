@@ -9,6 +9,7 @@ book:
   chapters:
     - index.qmd
     - 0_transparency.qmd
+    - 0_intro_os.qmd
     - part: "Reasons"
       chapters:
         - 1_reasons.qmd

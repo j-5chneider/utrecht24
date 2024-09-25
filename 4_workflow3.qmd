@@ -9,7 +9,6 @@
 **Resources**  
 Templates and online tools for specific applications  
 
-* Template [Standardized data management plan for educational research "Stamp"](https://www.forschungsdaten-bildung.de/stamp-nutzen) (FDZ Bildung): Detailed form with specific instructions and assistance
 * For rapid documentation: [DMP template](http://erc.europa.eu/sites/default/files/document/file/ERC-Data-Management-Plan.docx) (European Research Council) with four open questions
 * [Online tool for machine-readable DMPs](https://argos.openaire.eu/home) (Open Aire)
 * [Online tool supporting the creation of a DMP](https://datawiz.leibniz-psychology.org/DataWiz/?datawiz_locale=en) (ZPID)
@@ -35,8 +34,8 @@ Deciding on a specific repository or research data center early on helps to
 **Resources**  
 
 * search for a research data center that fits your needs: [re3data.org](https://www.re3data.org/)
-* recommended research data centers: [Verbund FDB (education, Germany)](https://www.forschungsdaten-bildung.de/), [RDC at ZPID (psychology, Germany)](https://rdc-psychology.org/), ...
-* recommended repositories: [Zenodo](https://zenodo.org/), [psycharchives.org](https://www.psycharchives.org/), [osf.io](https://osf.io/), ... 
+* recommended research data centers: [Verbund FDB (education, Germany)](https://www.forschungsdaten-bildung.de/), [Open ICPSR (USA)](https://www.openicpsr.org/openicpsr/), [UK Data Archive (UK)](https://www.data-archive.ac.uk/)
+* recommended repositories: [Zenodo](https://zenodo.org/), [osf.io](https://osf.io/), ... 
 
 ::: {.column-margin}
 Questions to be answered at the end?  

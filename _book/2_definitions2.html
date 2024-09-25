@@ -20,7 +20,27 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
@@ -262,24 +282,12 @@ ul.task-list li input[type="checkbox"] {
  <span class="menu-text"><span class="chapter-number">15</span>&nbsp; <span class="chapter-title">Workflow 4</span></span></a>
   </div>
 </li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./4_workflow6.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">16</span>&nbsp; <span class="chapter-title">Focus: Can I share?</span></span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./4_workflow7.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">17</span>&nbsp; <span class="chapter-title">Focus: How to share?</span></span></a>
-  </div>
-</li>
       </ul>
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" aria-expanded="true">
- <span class="menu-text">Reflection</span></a>
+ <span class="menu-text">Thematic focus</span></a>
           <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
@@ -287,8 +295,20 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-5" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./5_barriers1.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">18</span>&nbsp; <span class="chapter-title">Exercise: Barriers</span></span></a>
+  <a href="./5_focus1.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">16</span>&nbsp; <span class="chapter-title">Focus: Can I share?</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./5_focus2.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">17</span>&nbsp; <span class="chapter-title">Focus: How to share?</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./5_focus3.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">18</span>&nbsp; <span class="chapter-title">Focus: Tools and Resources</span></span></a>
   </div>
 </li>
       </ul>
@@ -296,12 +316,29 @@ ul.task-list li input[type="checkbox"] {
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-6" aria-expanded="true">
- <span class="menu-text">Appendices</span></a>
+ <span class="menu-text">Reflection</span></a>
           <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-6" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
       <ul id="quarto-sidebar-section-6" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./6_barriers1.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">19</span>&nbsp; <span class="chapter-title">Exercise: Barriers</span></span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-7" aria-expanded="true">
+ <span class="menu-text">Appendices</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-7" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-7" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./references.html" class="sidebar-item-text sidebar-link">
@@ -342,7 +379,7 @@ ul.task-list li input[type="checkbox"] {
 
 <p><strong>Purpose:</strong></p>
 <blockquote class="blockquote">
-<p>“enhancing the ability of machines to automatically find and use the data, in addition to supporting its reuse by individuals” <span class="citation" data-cites="Wilkinson.etal.2016">(<a href="references.html#ref-Wilkinson.etal.2016" role="doc-biblioref"><strong>Wilkinson.etal.2016?</strong></a>)</span></p>
+<p>“enhancing the ability of machines to automatically find and use the data, in addition to supporting its reuse by individuals” <span class="citation" data-cites="Wilkinson.etal.2016">(<a href="references.html#ref-Wilkinson.etal.2016" role="doc-biblioref">Wilkinson et al., 2016, p. 1</a>)</span></p>
 </blockquote>
 <p>See also <a href="https://www.go-fair.org/fair-principles/">go-fair.org</a><br>
 <br>
@@ -358,7 +395,7 @@ FAIRness vs.&nbsp;openness
 </div>
 <div class="callout-body-container callout-body">
 <p>“does not necessarily mean that data has to be “open” […] even highly protected data can be FAIR data”<br>
-<span class="citation" data-cites="Kraft.2023a">(<a href="references.html#ref-Kraft.2023a" role="doc-biblioref"><strong>Kraft.2023a?</strong></a>)</span></p>
+<span class="citation" data-cites="Kraft.2023a">(<a href="references.html#ref-Kraft.2023a" role="doc-biblioref">Kraft, 2023</a>)</span></p>
 </div>
 </div>
 <p><br>
@@ -375,8 +412,7 @@ Just because we provide data online, doesn’t mean that others will find it.</p
 <li>Get a persistent identifier (e.g., DOI), where you provided your data
 <ul>
 <li>search for a research data center that fits your needs: <a href="https://www.re3data.org/">re3data.org</a></li>
-<li>recommended research data centers: <a href="https://www.forschungsdaten-bildung.de/">Verbund FDB (education, Germany)</a>, <a href="https://rdc-psychology.org/">RDC at ZPID (psychology, Germany)</a>, …</li>
-<li>recommended repositories: <a href="https://zenodo.org/">Zenodo</a>, <a href="https://www.psycharchives.org/">psycharchives.org</a>, <a href="https://osf.io/">osf.io</a>, …</li>
+<li>recommended repositories: <a href="https://zenodo.org/">Zenodo</a>, <a href="https://osf.io/">osf.io</a>, …</li>
 </ul></li>
 <li>Mention DOI in publication that builds on this data (e.g., in the “data accessibility statement”)</li>
 <li>Describe your data as richly as possible (metadata). <em>Research data centers</em> offer form fields tailored to the discipline or data type. With <em>repositories</em> use alternative possibilities, such as keyword fields.
@@ -454,15 +490,23 @@ Just because others opened our data doesn’t mean they understand the data and 
 </div>
 <p><br>
 </p>
-<p><span class="citation" data-cites="Kraft.2023a">(FAIR principles and the role of scientists: <a href="references.html#ref-Kraft.2023a" role="doc-biblioref"><strong>Kraft.2023a?</strong></a>)</span></p>
-
+<p><span class="citation" data-cites="Kraft.2023a">(FAIR principles and the role of scientists: <a href="references.html#ref-Kraft.2023a" role="doc-biblioref">Kraft, 2023</a>)</span></p>
 
 
 
 <div class="no-row-height column-margin column-container"><div class="">
 <p>Questions to be answered at the end?<br>
 Please <a href="https://cryptpad.fr/pad/#/2/pad/edit/cuCPFUjVKcURc7JZSKt57dK2/embed/">put them here</a>!</p>
-</div></div></main> <!-- /main -->
+</div></div><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" data-line-spacing="2" role="list" style="display: none">
+<div id="ref-Kraft.2023a" class="csl-entry" role="listitem">
+Kraft, A. (2023). <em>The <span>FAIR Data Principles</span></em>. <a href="https://doi.org/10.23668/PSYCHARCHIVES.13577">https://doi.org/10.23668/PSYCHARCHIVES.13577</a>
+</div>
+<div id="ref-Wilkinson.etal.2016" class="csl-entry" role="listitem">
+Wilkinson, M. D., Dumontier, M., Aalbersberg, Ij. J., Appleton, G., Axton, M., Baak, A., Blomberg, N., Boiten, J.-W., da Silva Santos, L. B., Bourne, P. E., Bouwman, J., Brookes, A. J., Clark, T., Crosas, M., Dillo, I., Dumon, O., Edmunds, S., Evelo, C. T., Finkers, R., … Mons, B. (2016). The <span>FAIR Guiding Principles</span> for scientific data management and stewardship. <em>Scientific Data</em>, <em>3</em>(1), 160018. <a href="https://doi.org/10.1038/sdata.2016.18">https://doi.org/10.1038/sdata.2016.18</a>
+</div>
+</div>
+
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

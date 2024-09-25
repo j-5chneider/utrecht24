@@ -20,7 +20,27 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
@@ -267,7 +287,7 @@ ul.task-list li input[type="checkbox"] {
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" aria-expanded="true">
- <span class="menu-text">Reflection</span></a>
+ <span class="menu-text">Thematic focus</span></a>
           <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
@@ -275,8 +295,20 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-5" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./5_barriers1.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">16</span>&nbsp; <span class="chapter-title">Exercise: Barriers</span></span></a>
+  <a href="./5_focus1.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">16</span>&nbsp; <span class="chapter-title">Focus: Can I share?</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./5_focus2.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">17</span>&nbsp; <span class="chapter-title">Focus: How to share?</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./5_focus3.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">18</span>&nbsp; <span class="chapter-title">Focus: Tools and Resources</span></span></a>
   </div>
 </li>
       </ul>
@@ -284,12 +316,29 @@ ul.task-list li input[type="checkbox"] {
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-6" aria-expanded="true">
- <span class="menu-text">Appendices</span></a>
+ <span class="menu-text">Reflection</span></a>
           <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-6" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
       <ul id="quarto-sidebar-section-6" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./6_barriers1.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">19</span>&nbsp; <span class="chapter-title">Exercise: Barriers</span></span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-7" aria-expanded="true">
+ <span class="menu-text">Appendices</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-7" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-7" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./references.html" class="sidebar-item-text sidebar-link">
@@ -342,17 +391,35 @@ ul.task-list li input[type="checkbox"] {
 <i class="callout-icon no-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-DFG
+🇩🇪 DFG
 </div>
 </div>
 <div class="callout-body-container callout-body">
 <p><em>DFG Guidelines on the Handling of Research Data</em></p>
 <blockquote class="blockquote">
-<p>“Assuming that the publication of research data […] does not conflict with the rights of third parties (in particular data protection or copyright), research data should be <em>made available</em> as soon as possible […] that allows it to be usefully <em>reused</em> by third parties” <span class="citation" data-cites="DFG.2015b">(<a href="references.html#ref-DFG.2015b" role="doc-biblioref"><strong>DFG.2015b?</strong></a>)</span></p>
+<p>“Assuming that the publication of research data […] does not conflict with the rights of third parties (in particular data protection or copyright), research data should be <em>made available</em> as soon as possible […] that allows it to be usefully <em>reused</em> by third parties” <span class="citation" data-cites="DFG.2015b">(<a href="references.html#ref-DFG.2015b" role="doc-biblioref">DFG, 2015, p. 1</a>)</span></p>
 </blockquote>
 <p><em>Guidelines for Safeguarding Good Research Practice. Code of Conduct</em></p>
 <blockquote class="blockquote">
-<p>“Where possible and reasonable, this includes making the research data […] available” <span class="citation" data-cites="DFG.2019a">(<a href="references.html#ref-DFG.2019a" role="doc-biblioref"><strong>DFG.2019a?</strong></a>)</span></p>
+<p>“Where possible and reasonable, this includes making the research data […] available” <span class="citation" data-cites="DFG.2019a">(<a href="references.html#ref-DFG.2019a" role="doc-biblioref">DFG, 2019, p. 19</a>)</span></p>
+</blockquote>
+</div>
+</div>
+<p><br>
+</p>
+<div class="callout callout-style-default callout-important no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+🇬🇧 ESRC
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p><em>ESRC research data policy</em></p>
+<blockquote class="blockquote">
+<p>“Publicly-funded research data are a public good, produced in the public interest, which shall be made openly available and accessible with as few restrictions as possible” <span class="citation" data-cites="ESRC.2018">(<a href="references.html#ref-ESRC.2018" role="doc-biblioref">ESRC, 2018, p. 2</a>)</span></p>
 </blockquote>
 </div>
 </div>
@@ -364,40 +431,32 @@ DFG
 <i class="callout-icon no-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-BMBF
+🇺🇸 NSF
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>Typical section in calls for proposals</p>
+<p><em>Proposal &amp; Award Policies &amp; Procedures Guide</em></p>
+<p>You will need to hand in…</p>
 <blockquote class="blockquote">
-<p>“Zuwendungsempfänger sollen, wann immer möglich, die im Rahmen des Projekts gewonnenen Daten […] in nachnutzbarer Form einer geeigneten Einrichtung […] zur Verfügung stellen, um […] Replikationen und gegebenenfalls Sekundärauswertungen […] zu ermöglichen. Repositorien sollten aktuelle Standards für Datenveröffentlichungen (FAIR Data-Prinzipien) erfüllen”</p>
+<p>“plans for archiving data, samples, and other research products, and for preservation of access to them” <span class="citation" data-cites="NSF.2023">(<a href="references.html#ref-NSF.2023" role="doc-biblioref">NSF, 2023, pp. II–32</a>)</span></p>
 </blockquote>
-<p>z.B. in</p>
-<div class="columns">
-<div class="column" style="width:50%;">
-<p><em>Ausschreibung “Wissenschafts- und Hochschulforschung (WiHo)” 10.11.2023</em><br>
-<a href="https://www.bmbf.de/bmbf/shareddocs/bekanntmachungen/de/2023/11/2023-11-10-Bekanntmachung-WiHo.html">BMBF, 2023</a></p>
-</div><div class="column" style="width:50%;">
-<p><em>Ausschreibung zu “klinischen Studien mit hoher Relevanz für die Patientenversorgung” 09.11.2023</em> <a href="https://www.bmbf.de/bmbf/shareddocs/bekanntmachungen/de/2023/11/2023-11-09-Bekanntmachung-Patientenversorgung.html">BMBF, 2023</a></p>
-</div>
-</div>
 </div>
 </div>
 <p><br>
 </p>
-<div class="callout callout-style-default callout-warning no-icon callout-titled">
+<div class="callout callout-style-default callout-caution no-icon callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
 <i class="callout-icon no-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-ERC
+🇪🇺 ERC
 </div>
 </div>
 <div class="callout-body-container callout-body">
 <p><em>Open Research Data and Data Management Plans Information for ERC grantees</em></p>
 <blockquote class="blockquote">
-<p>“Grantees are required to deposit their research data in a repository and provide open access at least to those data” <span class="citation" data-cites="ERC.2022">(<a href="references.html#ref-ERC.2022" role="doc-biblioref"><strong>ERC.2022?</strong></a>)</span></p>
+<p>“Grantees are required to deposit their research data in a repository and provide open access at least to those data” <span class="citation" data-cites="ERC.2022">(<a href="references.html#ref-ERC.2022" role="doc-biblioref">ERC, 2022, p. 4</a>)</span></p>
 </blockquote>
 </div>
 </div>
@@ -407,7 +466,24 @@ ERC
 <div class="no-row-height column-margin column-container"><div class="">
 <p>Questions to be answered at the end?<br>
 Please <a href="https://cryptpad.fr/pad/#/2/pad/edit/cuCPFUjVKcURc7JZSKt57dK2/embed/">put them here</a>!</p>
-</div></div></section>
+</div></div><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" data-line-spacing="2" role="list" style="display: none">
+<div id="ref-DFG.2015b" class="csl-entry" role="listitem">
+DFG. (2015). <em><span>DFG Guidelines</span> on the <span>Handling</span> of <span>Research Data</span></em>.
+</div>
+<div id="ref-DFG.2019a" class="csl-entry" role="listitem">
+DFG. (2019). <em>Guidelines for <span>Safeguarding Good Research Practice</span>. <span>Code</span> of <span>Conduct</span></em>.
+</div>
+<div id="ref-ERC.2022" class="csl-entry" role="listitem">
+ERC. (2022). <em>Open <span>Research Data</span> and <span>Data Management Plans</span>. <span>Information</span> for <span>ERC</span> grantees</em>.
+</div>
+<div id="ref-ESRC.2018" class="csl-entry" role="listitem">
+ESRC. (2018). <em><span>ESRC Research Data Policy</span></em>.
+</div>
+<div id="ref-NSF.2023" class="csl-entry" role="listitem">
+NSF. (2023). <em>Proposal &amp; <span>Award Policies</span> &amp; <span>Procedures Guide</span> (<span>PAPPG</span>) (<span>NSF</span> 23-1)</em>.
+</div>
+</div>
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
