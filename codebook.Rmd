@@ -34,7 +34,6 @@ library(codebook)
 library(formr)
 
 
-
 ############################################################################## #
 ###   THESE ARE THE ONLY three LINES OF CODE THAT I NEED TO ENTER   ########## #
 ############################################################################## #
@@ -91,11 +90,3 @@ Create codebook
 ```{r codebook}
 codebook(codebook_data)
 ```
-
-
-# Open text field
-
-* *"No obstacles"*
-* *"No consent available"*
-* *"What to do with (very) sensitive data?"*
-* *"Codebook preparation"*
